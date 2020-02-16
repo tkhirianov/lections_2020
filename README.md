@@ -3,8 +3,7 @@
 Программный код с лекций по информатике Хирьянова Т.Ф.
 на ФТШ ЛФИ МФТИ (ФОПФ) в 2020 году.
 
-Лицензия на материалы курса: ![Attribution ShareAlike CC BY-SA 4.0]
-(https://licensebuttons.net/l/by-sa/4.0/88x31.png)
+Лицензия на материалы курса: ![Attribution ShareAlike CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
 
 Сайт курса: http://cs.mipt.ru/cpp_algo
 
