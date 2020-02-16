@@ -1,0 +1,4 @@
+- Hello! What is your name?
+- I'm glad to see you, Katapulta!
+- What is your age?
+- I thought you are 2 year old. You look younger!
