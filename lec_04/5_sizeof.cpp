@@ -18,6 +18,7 @@ int main()
 
     cout << sizeof(x) << '\n';
     cout << sizeof(int) << '\n';
+    cout << sizeof(int*) << '\n';
     cout << sizeof(z) << '\n';
     cout << sizeof(a) << '\n';
     cout << sizeof(b) << '\n';

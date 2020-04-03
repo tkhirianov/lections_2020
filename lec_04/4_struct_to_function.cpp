@@ -10,7 +10,7 @@ struct t_Pair {
 void modify_pair(t_Pair *p)
 {
     p->a += 1;
-    p->b += 10;
+    (*p).b += 10;
 }
 
 int main()
@@ -22,6 +22,7 @@ int main()
     y = x;
 
     modify_pair(&x);
+
     cout << x.a << ' ' << x.b << '\n';
     cout << y.a << ' ' << y.b << '\n';
 

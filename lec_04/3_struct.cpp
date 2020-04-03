@@ -2,18 +2,19 @@
 
 using namespace std;
 
-struct t_Pair {
+struct t_Pair {  // создаём новый тип t_Pair
     int a;
     int b;
 };
 
 t_Pair return_pair(int x)
 {
-    t_Pair result;
+    t_Pair result; // создаю локальный экземпляр структуры t_Pair
 
-    result.a = x*x;
+    result.a = x*x;  // Заполняю его нужными значениями.
     result.b = x*x*x;
-    return result;
+
+    return result;  // Возвращаю его как результат.
 }
 
 int main()
@@ -21,8 +22,8 @@ int main()
     int x;
     cin >> x;
 
-    t_Pair pair_ = return_pair(x);
-    cout << pair_.a << ' ' << pair_.b << '\n';
+    t_Pair y = return_pair(x);
+    cout << y.a << ' ' << y.b << '\n';
 
     return 0;
 }
