@@ -28,7 +28,7 @@ double max_backpack_value(std::vector<std::pair<int, double>> treasures,
         int weight = treasures[j-1].first;
         double value = treasures[j-1].second;
 
-        for (int k = 1; k < weight; k++) {
+        for (int k = 1; k < weight && k<= capacity; k++) {
             F[k][j] = F[k][j-1];
         }
         for (int k = weight; k <= capacity; k++) {
