@@ -73,6 +73,13 @@ def draw_fence():
         pygame.draw.line(screen, NIGHT_GRAY, [x, y], [x + 800, y], 1)
 
 
+def key_down_handler(event):
+    global lights_on, day
+    if event.key == pygame.K_l:
+        lights_on = not lights_on
+    elif event.key == pygame.K_d:
+        day = not day
+
 
 # Config
 lights_on = True
@@ -101,11 +108,7 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_l:
-                lights_on = not lights_on
-            elif event.key == pygame.K_d:
-                day = not day
-
+            key_down_handler(event)
     # Game logic (Check for collisions, update points, etc.)
     ''' leave this section alone for now '''
     if lights_on:
