@@ -21,8 +21,8 @@ refresh_rate = 60
 
 # Colors
 ''' add colors you use as RGB values here '''
-RED = (255, 0, 0)
-GREEN = (52, 166, 36)
+RED = (235, 0, 0)
+GREEN = (52, 169, 36)
 BLUE = (29, 116, 248)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
