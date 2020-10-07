@@ -1,0 +1,10 @@
+pear
+apple
+carrot
+cabbage
+cucumber
+salad
+potato
+onion
+
+apple
